@@ -1,6 +1,6 @@
 Feature: US1004 Kullanici parametre configuration file'i kullanabilmeli
 
-  @config
+  @config @pr2
   Scenario: TC07 configuration properties dosyasindan parametre kullanimi
     Given kullanici "techproeducationUrl" anasayfasinda
     Then kullanici 3 sn bekler
